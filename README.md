@@ -32,3 +32,12 @@ Here's a breakdown of the project workflow in steps:
 - Analyze the model's performance metrics and cross-validation results.
 - Draw conclusions about the model's accuracy and generalization ability.
 - Gain insights into the relationship between weather features and power consumption in Tetouan City.
+
+**Workflow**
+[Data Acquisition & Preparation] --> [Model Training & Evaluation] --> [Cross-Validation] --> [Conclusion & Insights]
+         |                            --> [Train Model]               --> [5-Fold Cross-Validation]         |
+         |                            --> [Evaluate Performance]      --> [Average MAE & MSE Scores]         |
+         |                            --> [Visualize Predictions]     --> [Visualize Cross-Validation]      |
+         |                                                             |
+   [Obtain Dataset] --> [Load Data] --> [Clean & Preprocess Data] --> [Create Target Variable] --> [Select Features]
+
